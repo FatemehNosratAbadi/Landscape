@@ -953,3 +953,119 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.06.10-06.21.40:364][966]LogHttp: Warning: 000002338C1DB200: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
 [2024.06.10-06.21.40:364][966]LogHttp: Warning: 000002338C1DB200: libcurl info message cache 8 (Closing connection 3)
 [2024.06.10-06.21.40:364][966]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: request failed, libcurl error: 28 (Timeout was reached)
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 0 (  Trying 5.9.210.70...)
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 1 (TCP_NODELAY set)
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (5.9.210.70) port 443 (#4))
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.06.10-06.23.14:148][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.06.10-06.23.14:149][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 6 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2024.06.10-06.23.14:149][246]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 7 (Closing connection 4)
+[2024.06.10-06.23.14:149][246]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.06.10-06.24.14:138][425]LogHttp: Warning: 0000023393ABA400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.06.10-06.24.14:139][425]LogHttp: Warning: 0000023393ABA400: request failed, libcurl error: 28 (Timeout was reached)
+[2024.06.10-06.24.14:139][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2330104fac0 [serially])
+[2024.06.10-06.24.14:139][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2024.06.10-06.24.14:139][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 2 (  Trying 5.9.210.70...)
+[2024.06.10-06.24.14:139][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 3 (TCP_NODELAY set)
+[2024.06.10-06.24.14:140][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (5.9.210.70) port 443 (#5))
+[2024.06.10-06.24.14:140][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2024.06.10-06.24.14:140][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.06.10-06.24.14:140][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.06.10-06.24.14:140][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.06.10-06.24.14:140][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 9 (TLSv1.3 (IN), TLS Unknown, Certificate Status (22):)
+[2024.06.10-06.24.14:141][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Unknown (8):)
+[2024.06.10-06.24.14:141][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 11 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2024.06.10-06.24.14:141][425]LogHttp: Warning: 0000023393ABA400: libcurl info message cache 12 (Closing connection 5)
+[2024.06.10-06.24.14:468][426]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.06.10-06.25.01:816][994]LogTexture: Display: Building textures: rock_D (OODLE_AutoDXT, 2048X2048)
+[2024.06.10-06.25.01:816][994]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2024.06.10-06.25.01:816][994]LogTexture: Display: Building textures: rock_N (OODLE_BC5, 4096X4096)
+[2024.06.10-06.25.01:816][994]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2024.06.10-06.25.01:816][994]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2024.06.10-06.25.01:816][994]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2024.06.10-06.25.01:816][994]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2024.06.10-06.25.01:816][994]LogTexture: Display: Building textures: RockDetail_D (OODLE_AutoDXT, 256X256)
+[2024.06.10-06.25.01:816][994]LogTexture: Display: Building textures: RockDetail_N (OODLE_BC5, 256X256)
+[2024.06.10-06.25.01:816][994]LogMaterial: Display: Missing cached shadermap for Rock01 in PCD3D_SM5, Default, SM5 (DDC key hash: 7E96BC67D45B3EFD762AC0B68E28E9FC52261FA2), compiling. 
+[2024.06.10-06.25.02:049][994]LogShaderCompilers: Display: Submitted 90 shader compile jobs with 'Low' priority
+[2024.06.10-06.25.02:071][994]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 90
+[2024.06.10-06.25.02:071][994]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 80
+[2024.06.10-06.25.02:072][994]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 70
+[2024.06.10-06.25.02:072][994]LogShaderCompilers: Display: Started 30 'Local' shader compile jobs with 'Low' priority
+[2024.06.10-06.25.02:072][994]LogStaticMesh: Building static mesh rock2...
+[2024.06.10-06.25.02:119][994]LogStaticMesh: Built static mesh [0.05s] /Game/NaturePackage/Meshes/flora/rock2.rock2
+[2024.06.10-06.25.13:835][ 78]LogHttp: Warning: 0000023393AB8F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.06.10-06.25.13:835][ 78]LogHttp: Warning: 0000023393AB8F00: request failed, libcurl error: 28 (Timeout was reached)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2330104fac0 [serially])
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 2 (  Trying 5.9.210.66...)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 3 (TCP_NODELAY set)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (5.9.210.66) port 443 (#6))
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 8 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: 0000023393AB8F00: libcurl info message cache 9 (Closing connection 6)
+[2024.06.10-06.25.13:836][ 78]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.06.10-06.25.22:674][122]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2024.06.10-06.25.22:674][122]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.25.22:897][122]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.10-06.25.22:897][122]LogShaderCompilers: Display: Total job queries 90, among them cache hits 0 (0.00%)
+[2024.06.10-06.25.22:897][122]LogShaderCompilers: Display: Tracking 10 distinct input hashes that result in 9 distinct outputs (90.00%)
+[2024.06.10-06.25.22:898][122]LogShaderCompilers: Display: RAM used: 0.04 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.01%
+[2024.06.10-06.25.22:898][122]LogShaderCompilers: Display: ================================================
+[2024.06.10-06.25.25:293][137]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2024.06.10-06.25.25:293][137]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.25.25:478][138]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2024.06.10-06.25.25:478][138]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.25.38:167][204]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2024.06.10-06.25.38:167][204]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.25.41:925][222]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2024.06.10-06.25.41:925][222]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.25.58:049][303]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2024.06.10-06.25.58:049][303]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.06.10-06.25.58:272][304]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2024.06.10-06.25.58:272][304]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.06.10-06.25.58:981][305]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2024.06.10-06.25.58:981][305]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.06.10-06.26.00:101][311]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2024.06.10-06.26.00:101][311]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.26.00:989][319]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2024.06.10-06.26.00:989][319]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.26.01:362][321]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2024.06.10-06.26.01:362][321]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.26.06:239][348]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2024.06.10-06.26.06:239][348]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2024.06.10-06.26.13:612][400]LogHttp: Warning: 0000023358B33900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.06.10-06.26.13:612][400]LogHttp: Warning: 0000023358B33900: request failed, libcurl error: 28 (Timeout was reached)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2330104fac0 [serially])
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 2 (  Trying 5.9.210.66...)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 3 (TCP_NODELAY set)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (5.9.210.66) port 443 (#7))
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 9 (TLSv1.3 (IN), TLS Unknown, Certificate Status (22):)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 10 (TLSv1.3 (IN), TLS handshake, Unknown (8):)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 11 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2024.06.10-06.26.13:613][400]LogHttp: Warning: 0000023358B33900: libcurl info message cache 12 (Closing connection 7)
+[2024.06.10-06.26.13:614][400]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.06.10-06.26.27:577][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.10-06.26.28:345][503]LogSavePackage: Moving 'G:/Unreal/Forest/Landscape/Landscape/MyJungle/Saved/Minimal_Default3F3AA7354D39D9878D4212843E288472.tmp' to 'G:/Unreal/Forest/Landscape/Landscape/MyJungle/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.06.10-06.26.28:475][503]LogSavePackage: Moving 'G:/Unreal/Forest/Landscape/Landscape/MyJungle/Saved/Minimal_Default_BuiltData7F0E47204FB3DF6634FB6FBAE44482BE.tmp' to 'G:/Unreal/Forest/Landscape/Landscape/MyJungle/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.06.10-06.26.28:496][503]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.10-06.26.28:497][503]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2024.06.10-06.26.28:497][503]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2024.06.10-06.26.34:764][537]LogHttp: Warning: 0000023359215D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.06.10-06.26.34:764][537]LogHttp: Warning: 0000023359215D00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2024.06.10-06.26.34:764][537]LogHttp: Warning: 0000023359215D00: libcurl info message cache 0 (  Trying 50.7.87.86...)
+[2024.06.10-06.26.34:764][537]LogHttp: Warning: 0000023359215D00: libcurl info message cache 1 (TCP_NODELAY set)
+[2024.06.10-06.26.34:765][537]LogHttp: Warning: 0000023359215D00: libcurl info message cache 2 (connect to 50.7.87.86 port 443 failed: Timed out)
+[2024.06.10-06.26.34:765][537]LogHttp: Warning: 0000023359215D00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2024.06.10-06.26.34:765][537]LogHttp: Warning: 0000023359215D00: libcurl info message cache 4 (Closing connection 8)
+[2024.06.10-06.26.35:100][538]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E29D71E-42FA-FB91-B746-55AF81B015AA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4eb2cde6431b9c1942efd1b8b00c2b1d%7C%7C0a06a022-43e1-4da6-a10f-7262f6a38178&AppEnvironment=datacollector-binary&UploadType=eteventstream
